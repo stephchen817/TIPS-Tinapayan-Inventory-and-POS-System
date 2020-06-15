@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 25, 2020, 10:08:37 PM
+    Author     : Matthew Wong
+*/
+
+body{
+    background: rgba(255, 231, 208, 0.6);
+    font-family: 'Baloo Tamma', cursive !important;
+}
+
+button {
+    font-family: 'Baloo Tamma', cursive;
+}
+
+header{
+    width: 502px;
+    height: 27px;
+    left: 11px;
+    top: 10px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #C47214;
+}
+
+#box-container {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+}
+#box-1 {
+    background: #F69947;
+    width: 20%;
+    height:600px;
+    text-align: center;
+}
+
+#box-2 {
+    background: #F69947;
+    width: 90%;
+    height: 500px;
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr 2fr 2fr;
+    align-items: stretch;
+    height: 50px;
+    left: 217px;
+    top: 49px;
+    color: #B57B3E;
+    bottom : 30px;
+
+}
+
+#box-3{
+    display: grid;
+    flex-direction: row;
+    background-color: yellow;
+    width: auto;
+    height:100px;
+    left: 210px;
+    top: 470px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    background: #CA7021;
+}
+#box-4 {
+    background: #F69947;
+    width: 90%;
+    height: 500px;
+    display: grid;
+    grid-template-columns:5fr 5fr 5fr;
+    align-items: stretch;
+    height: 50px;
+    left: 217px;
+    top: 49px;
+    color: #B57B3E;
+}
+#col{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    align-items: stretch;
+}
+.righty{
+    padding-left: 30%;
+}
+
+.smaller-image{
+    width: 150px;
+    left: 22px;
+    top: 67px;
+}
+
+.fil1{
+    width:270px;
+    height:40px;
+    font-size:20px;
+    background: rgba(255, 231, 208, 0.6);
+    color: white;
+    border: 30px;
+}
+
+.fil2{
+    width:260px;
+    height:50px;
+    font-size:20px;
+    background: #F69947;
+    color: white;
+    border: 30px;
+}
+
+.fil3{
+    width:270px;
+    height:40px;
+    font-size:20px;
+    background: rgba(255, 231, 208, 0.6);
+    color: white;
+    border: 30px;
+}
+
+.fil4{
+    width:260px;
+    height:40px;
+    font-size:20px;
+    background: #F69947;
+    color: white;
+    border: 30px;
+}
+
+#lower1{
+    color: white;
+    background: #F69947;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#lower2{
+    color: white;
+    background: #F69947;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+#lower3{
+    color: white;
+    background: #F69947;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}	
+
+#lower4{
+    color: white;
+    background: #F69947;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+}

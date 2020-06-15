@@ -1,0 +1,280 @@
+#header{
+    background-color: #FFDEB9;
+    font-size: 300%;
+    font-family: 'Baloo Tamma', cursive;
+    color: #c37214;
+    height: 65px;
+}
+
+#reptable, #userdata {
+    width: 100%;
+    font-size: 30;
+}
+
+
+#buttons {
+    text-align: center;
+}
+
+#icon, #caption {
+    cursor: pointer;
+}
+
+#icon {
+    margin: 50px;
+    width:300px;
+    height: 300px;
+}
+
+#pic {
+    width: 50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#reptable, th, #border{
+    border: 2px solid #cfa885;
+}
+
+#spoilage {
+    width: 250px !important;
+}
+
+#return {
+    background-color:#c36f22;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#reset {
+    left: 150px;
+    margin-bottom: 50px;
+}
+
+#reppage {
+    overflow: hidden;
+}
+
+#head {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+#editinvoice {
+    margin-left: 50px !important;
+    margin-top: 13px;
+}
+
+#totalsales {
+    font-size: 20px;
+}
+
+#salesmenu4 {
+    background-color: RGB(202,112,33) !important;
+    width: auto;
+    cursor: default;    
+}
+
+.salesmenu {
+    background: RGB(246, 153, 71) !important;
+    margin-right: 100px;
+}
+
+.caption {
+    position: absolute;
+    top: 78%;
+    left: 0;
+    width: 100%;
+    font-family: 'Baloo Tamma', cursive;
+    font-size: 250%;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.btn{
+    margin-top: 10px;
+    background-color:#c36f22;
+    color: white;
+}
+
+.sec-1 {
+    background: #f69947;
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+.sec-2 {
+    float: left;
+    height: 92%;
+    overflow-y: auto;
+    width: 80%;
+}
+
+.sec-2_sales {
+    height: 83%;
+}
+
+.sec-3 {
+    float: left;
+    background: RGB(202,112,33) !important;
+    height: 100%;
+    width: 80%;
+}
+
+a {
+    color: rgb(255,255,255) !important;
+}
+
+body {
+    background: #fff3e1;
+    font-family: 'Baloo Tamma', cursive;
+    color: white;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+legend {
+    color: #c37214 !important;
+}
+
+tr { border-bottom: none !important; }
+
+.contents{
+    font-family:'Roboto Condensed';
+    color:rgb(102, 98, 98);
+    font-size: 25px;
+}
+
+#fxnbutton1, #fxnbutton2{
+    font-family:'Roboto Condensed';
+    background-color:#c37214;
+    color:white;
+    font-size: 20px;
+}
+
+#save, #submitNew{
+    font-family: 'Baloo Tamma';
+    background-color:#F69947;
+    color:white;
+    font-size: 18px;
+    box-align: right;
+    border-radius:15px;
+    padding: 10px;
+}
+
+.h2{
+    background-color:#F2C8A3;
+    color: #B57B3E;
+}
+
+.form-control{
+    padding: 20px;
+    font-family:'Open Sans';
+}
+
+::placeholder{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.modal-header{
+    background-color:#d27807;
+}
+
+
+.modal-title{
+    color: white;
+    font-family: 'Baloo Tamma', cursive;
+}
+
+.modal-footer{
+    text-align: left;
+}
+
+#header1{
+    background: #FFF3E1;
+    font-size: 240%;
+    font-family: 'Baloo Tamma', cursive;
+    color: #c37214; 
+    height: 65px;
+}
+
+#return, #addbtn, #add, #insert {
+    font-family: 'Baloo Tamma', cursive !important;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+    font-size:20px;
+    background-color:#c36f22;
+    padding: 10px;
+    border-radius:15px;
+}
+
+.loggedIn {
+    font-family: 'Baloo Tamma';
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size:100%;
+    color: white;
+}
+
+.h4{
+    font-family:'Baloo Tamma';
+    text-align:center;
+    font-size:20px;
+    color:#B57B3E;
+}
+
+.h3{
+    font-family:'Baloo Tamma';
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    color:#B57B3E;
+}
+
+::placeholder{
+    color:gray;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+#username, #password, #role, #new_role {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 35px;
+}
+
+#user{
+    font-family:'Baloo Tamma';
+    font-size:30px;
+}
+
+.passmatch{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button1{
+    width:20px;
+}
+
+.ui-dialog-titlebar{
+    background-color: #d27807;
+    font-size: 20px;
+    color: white;
+    font-family: 'Baloo Tamma', cursive;
+}
